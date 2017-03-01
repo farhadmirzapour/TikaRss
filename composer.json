@@ -1,0 +1,21 @@
+{
+    "name": "farhadmirzapour/yii2-rss",
+    "description": "for rss reader",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","rss"],
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Farhad Mirzapour",
+            "email": "farhad.mirzapour@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "farhadmirzapour\\rss\\": ""
+        }
+    }
+}
