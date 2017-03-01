@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist farhadmirzapour/yii2-rss "*"
+php composer.phar require --prefer-dist farhadmirzapour/yii2-rss "dev-master"
 ```
 
 or add
 
 ```
-"farhadmirzapour/yii2-rss": "*"
+"farhadmirzapour/yii2-rss": "dev-master"
 ```
 
 to the require section of your `composer.json` file.
@@ -28,4 +28,4 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \farhadmirzapour\rss\AutoloadExample::widget(); ?>```
+<?= \farhadmirzapour\rss\Rss::widget(); ?>```
